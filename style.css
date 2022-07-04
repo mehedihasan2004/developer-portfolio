@@ -8,21 +8,20 @@ h1 {
     font-size: 50px;
 }
 
+h2 {
+    font-size: 40px;
+}
+
 h3 {
     color: rgb(20, 177, 255);
 }
 
-section {
-    display: flex;
-    margin-bottom: 100px;
-}
-
-.adjust {
+.half-width {
     width: 50%;
     padding-left: 20px;
 }
 
-.adjust img {
+.half-width img {
     width: 70%;
     margin-top: 10px;
     padding: 20px;
@@ -32,8 +31,9 @@ section {
     color: red;
 }
 
-section {
+.flexible-container {
     display: flex;
+    margin-bottom: 100px;
 }
 
 .hire-link {
@@ -55,4 +55,30 @@ section {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.experience-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.experience-item {
+    width: 40%;
+    box-shadow: 10px 10px 40px gray;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+}
+
+#full-stack-developir {
+    margin-left: 7px solid tomato;
+}
+
+#baby-web-developer {
+    margin-left: 7px solid blue;
+}
+
+footer {
+    text-align: center;
 }
